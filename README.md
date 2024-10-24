@@ -1,4 +1,4 @@
-<h1>**DETAILED DESCRIPTION OF THE PROJECT**</h1>
+<h1>DETAILED DESCRIPTION OF THE PROJECT</h1>
 <br>
 NeighborHero is a community-centric platform connecting seekers with local heroes. 
 both seekers and providers will use the application 
@@ -11,9 +11,9 @@ seekers can choose a specific service and communicate with the provider.
 <br>
 <h1>TECHNOLOGY AREAS RELATED TO THE PROJECT</h1>
 <br>
-●	Frontend Development: React.js
-●	Backend Development: Node.js, Express.js
-●	Database: MongoDb
-●	Payment gateway: Stripe
+●	Frontend Development: React.js<br>
+●	Backend Development: Node.js, Express.js<br>
+●	Database: MongoDb<br>
+●	Payment gateway: Stripe<br>
 
 
