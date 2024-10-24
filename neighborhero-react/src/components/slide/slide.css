@@ -1,0 +1,15 @@
+.outerSlideContainer{
+    border-radius: 25px;
+    overflow: hidden;
+    border: 0.5px solid lightgrey ;
+}
+.slide-container{
+    width: 100%;
+    height: 460px;
+}
+.imageSlideBox{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+

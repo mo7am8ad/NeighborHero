@@ -1,0 +1,94 @@
+.add{
+  display: flex;
+  justify-content: center;
+}
+.addContainer{
+  width:1400px;
+  padding: 50px 0px;
+}
+.add h1{
+  color: gray;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.add label{
+  font-family: poppins;
+}
+.AddSections{
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.addSectionLeft{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+}
+.addSectionLeft label{
+  color: gray;
+  font-size: 18px;
+}
+.addSectionLeft input,select,textarea{
+  padding: 15px;
+}
+.addSectionRight input,select,textarea{
+  padding: 15px;
+}
+.addSectionRight{
+  display: flex;
+  flex: 0.8;
+  flex-direction: column;
+  gap: 15px;
+}
+.addSectionRight label{
+  color: gray;
+  font-size: 18px;
+}
+.priceAdd{
+  width:  100px;
+  padding: 8px;
+  height: 5px;
+}
+.AddLeftFilesContaimer{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.iamgesInput{
+  display: flex;
+  flex-direction: column;
+}
+.AddLeftFilesContaimer button{
+  width: 130px;
+  height: 42px;
+  background-color: #8a2be2;
+  border: none;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+}
+.AddLeftPriceContaimer{
+  display: flex;
+  flex-direction: column  ;
+  gap: 22px;
+  
+}
+.AddLeftPriceContaimer label{
+  align-content:center;
+}
+.createServiceButton{
+  border: none;
+  padding: 20px;
+  background-color: #8a2be2;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  width:100%;
+  border-radius: 8px;
+}

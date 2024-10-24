@@ -1,0 +1,33 @@
+.categoryContainer{
+    width: 200px;
+    height: 200px;
+    border-radius: 25px 25px 25px 25px;
+    background-color:#8a2be2;
+}
+.categoryImgContainer{
+    border-radius: 25px 25px 0px 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80%;
+    background-color:#Fff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+}
+.categoryHeaderContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.categoryHeaderContainer h3{
+    font-family: poppins;
+    font-weight: 450;
+    color: aliceblue;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+}

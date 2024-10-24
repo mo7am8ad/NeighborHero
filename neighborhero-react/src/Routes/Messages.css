@@ -1,0 +1,53 @@
+.messages{
+    display: flex;
+    justify-content: center;
+}
+.messages .container{
+    width: 1400px;
+    padding: 50px 0px;
+}
+.container .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.messgaesTable button{
+    background-color: #8a2be2;
+    border: none;
+    font-weight: 500;
+    border-radius: 8px;
+    color: white;
+    height: 40px;
+    width: 130  px;
+    cursor: pointer;
+    padding: 10px;
+}
+.messgaesTable{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+.messgaesTable th{
+    text-align: left;
+    font-family: poppins;   
+    font-weight: 500;
+    color: black;
+    padding: 10px;
+}
+.messgaesTable tr{
+    height: 100px;
+    font-family: poppins;   
+    font-weight: 400;
+}
+.messgaesTable td{
+    padding: 10px;
+}
+.active{
+    background-color: #892be2a6;
+    color: white;
+    padding: 0;
+}
+
+
+

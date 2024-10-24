@@ -1,0 +1,47 @@
+.searchForServContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6vh;
+}
+.searchContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 9vh;
+}
+.searchForServSerarchIcon{
+    width: 35px;
+    position: absolute;
+    left: 63%;
+    height: 30px;
+}
+.searchContainer input{
+    width: 35%;
+    height: 40px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+}
+.searchForServFilter{
+    width: 40px;
+    height: 35px;
+}
+.searchContainer ::placeholder{
+    font-size: 15px;
+    font-weight: 400;
+    color:black;
+}
+.categoryCardsContainer{
+    width: 85%;
+    height: 75vh;
+    display: grid;
+    place-items: center;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:10px;
+    
+}

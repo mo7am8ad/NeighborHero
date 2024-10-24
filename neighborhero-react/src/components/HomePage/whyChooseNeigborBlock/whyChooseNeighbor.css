@@ -1,0 +1,32 @@
+h3{
+    padding:0;
+    margin:0;
+    
+}
+.WhyNeigborBlock{
+    padding: 30px;
+    margin: 20px;
+    width: 65%;
+    height: 175px;
+    border-radius: 19.515px;
+    background: #F4F4F4;
+    display:flex;
+    flex-direction: column;
+    gap:1px;    
+}
+
+.WhyNeigborBlock h3{
+    color:#8a2be2 ;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+}
+.WhyNeigborBlock p{
+    color:#1E1E1E;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 37.078px; /* 158.333% */
+}

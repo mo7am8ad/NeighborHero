@@ -1,0 +1,21 @@
+.Pay{
+  width: 500px;
+  height: 300px;
+  padding: 20px;
+}
+.Pay form button{
+    width: 100%;
+    border-radius: 8px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 500;
+    border: none;margin-top: 15px;
+    height: 40px;
+}
+.paymentContainer{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 80vh;
+}

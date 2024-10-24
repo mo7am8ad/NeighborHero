@@ -1,0 +1,70 @@
+.signinBG{
+    background-image: url('../Assets/images/worker\ 1.png');
+    height: 92vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.signinContainer{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.signinOuter{
+    background-color: #8a2be2;
+    width: 100%;
+    height: 12vh;
+    border-radius: 35px 35px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signinOuter h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;  
+}
+.signinInner{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 47vh;
+    border-radius: 0px 0px 50px 50px;
+    background-color: rgba(219, 216, 216, 0.8);
+    gap:5vh;
+}
+.signinInner h3{
+    font-family: poppins;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.signinInner input{
+    height: 39px;
+    border-radius: 35px;
+    border-style: solid;
+    border: 1px solid #000;
+    outline: none;
+    border-style: none;
+}
+.signinInner button{
+    color:#FFF;
+    background-color:#8a2be2;
+    border-radius: 35px;
+    width: 170px;
+    height: 40px;
+    border-style: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+.signinInner input{
+    width: 80%;
+}

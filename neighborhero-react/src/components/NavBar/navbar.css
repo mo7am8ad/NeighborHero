@@ -1,0 +1,109 @@
+*.link {
+    text-decoration: none;
+    color: inherit;
+}
+.NavContainer{
+  
+}
+nav{
+    background: #8a2be2;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0 20px;
+    .logo{
+        height: 6vh;
+    }
+    .navLogoContainer{
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    
+    .nav2ndContainer{
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: 55%;
+    }
+    .nav2ndContainer span{
+        font-family: poppins;
+        color: white;
+        font-weight: 500;
+    }
+    .navSearch{
+        height: 20px;
+        justify-content: center;
+    }
+    .searchDivContain{
+        display:flex;
+        width: 180px;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+    .messageIcon{
+        height: 28px;
+    }
+    
+    .navLoginSignupContainer{
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .navLoginSignupContainer span{
+        font-family: poppins;
+        color: white;
+        font-weight: 400;
+        font-size: small;
+    }
+    .user{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        cursor: pointer;
+        position: relative;
+    }
+    .user span{
+       
+         font-family: poppins;
+        color: white;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .user img{
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+        object-fit: cover;
+    }
+    .user .options{
+        position: absolute;
+        top: 60px;
+        right: 0;
+        padding: 20px;
+        background-color: #8a2be2;
+        border-radius: 10px;
+       
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 170px;
+        align-items: center;
+        .sub{
+            color: rgb(255, 255, 255);
+            font-size: 15px;
+            font-weight: 500;
+            font-family: poppins;
+           
+        }
+    }
+
+    
+}
+

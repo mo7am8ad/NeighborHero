@@ -1,0 +1,127 @@
+.ServiceCards{
+    margin: 50px
+}
+
+.services{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+.services .container{
+    width: 1400px;
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.breadcrumbs{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #555;
+    font-family: poppins;
+}
+span{
+    
+    font-family: poppins;
+}
+h1{
+    font-family: poppins;
+}
+.menu{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.menu .left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #555;
+    font-weight: 300;
+}
+.left input{
+    padding: 5px;
+    height: 23px;
+    border: 1px solid lightgray;
+    outline: none;
+}
+.left ::placeholder{
+    color:gray;
+    margin-left: 3px;
+}
+.left button{
+    background-color: #8a2be2;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    width: 70px;
+    height: 30px;
+    font-family: poppins;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.menu .right{
+    display: flex;
+    align-items: center;
+    gap:10px;  
+    position: relative; 
+    font-family: poppins;
+}
+.menu .sortBy{
+    color:#555;
+    font-weight: 300;
+    
+}
+.menu .sortType{
+    font-weight: 500;
+}
+.menu img{
+    width: 15px;
+    cursor: pointer;
+}
+.rightMenu{
+    position: absolute;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: .5px solid #8a2be2;
+    top:30px;
+    right:0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #555;
+    z-index: 9;
+    font-family: poppins;
+}
+.rightMenu span{
+    cursor: pointer;
+}
+.ServiceCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.middle{
+    width: 500px;
+}
+.district-filters h3{
+    font-family: poppins;
+    font-weight:normal;
+    font-size: 14px;
+    color: #434343;
+}
+.district-filters label{
+    
+    font-family: poppins;
+    font-size: 12px;
+    color: #555;
+    
+}
+.contDistrict{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
